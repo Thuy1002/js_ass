@@ -79,7 +79,7 @@ const ProductAdmin = {
                             <table class="table table-hover table-striped">
                                 <thead>
                                     <th>STT</th>
-                                    <th>Tên Sản Phẩm</th>
+                                    <th>Tên</th>
                                     <th>Ảnh</th>
                                     <th>Hành Độnh</th>
                                     <th>  <a  href="http://localhost:3000/admin/products/add"> Thêm Bài Viết</a> </th>
