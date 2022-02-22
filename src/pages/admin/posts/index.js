@@ -82,7 +82,7 @@ const AdminPost = {
                                     <th>Tiêu Đề</th>
                                     <th>Ảnh</th>
                                     <th>Nội Dung</th>
-                                    <th>  <a  href="admin/news/add"> Thêm Bài Viết</a> </th>
+                                    <th>  <a  href="http://localhost:3000/admin/news/add"> Thêm Bài Viết</a> </th>
                                 </thead>
                                 <tbody>
                                 ${data.map((post, index) => `
