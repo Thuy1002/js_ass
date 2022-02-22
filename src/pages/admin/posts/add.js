@@ -23,7 +23,7 @@ const AddPost = {
                         </a>
                     </li>
                     <li>
-                        <a class="nav-link" href="./user.html">
+                        <a class="nav-link" href="/admin/products">
                             <i class="nc-icon nc-bell-55"></i>
                             <p>Sản Phẩm</p>
                         </a>
