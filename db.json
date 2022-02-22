@@ -1,0 +1,224 @@
+{
+  "posts": [
+    {
+      "createdAt": "2022-01-10T07:26:52.549Z",
+      "title": "Annie Stroman",
+      "img": "http://placeimg.com/640/480/fashion",
+      "desc": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "id": "1",
+      "categoryPostId": 1
+    },
+    {
+      "createdAt": "2022-01-10T20:33:27.477Z",
+      "title": "Yolanda Roob",
+      "img": "http://placeimg.com/640/480/sports",
+      "desc": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "id": "2",
+      "categoryPostId": 1
+    },
+    {
+      "createdAt": "2022-01-10T20:33:27.477Z",
+      "title": "Yolanda 1",
+      "img": "http://placeimg.com/640/480/sports",
+      "desc": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "id": "100",
+      "categoryPostId": 1
+    },
+    {
+      "createdAt": "2022-01-11T03:36:13.571Z",
+      "title": "Rufus Konopelski",
+      "img": "http://placeimg.com/640/480/transport",
+      "desc": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "id": "3",
+      "categoryPostId": 2
+    },
+    {
+      "createdAt": "2022-01-10T04:45:32.422Z",
+      "title": "Ray Boyle",
+      "img": "http://placeimg.com/640/480/transport",
+      "desc": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "id": "4",
+      "categoryPostId": 2
+    },
+    {
+      "createdAt": "2022-01-10T10:56:22.073Z",
+      "title": "Jacqueline Hills",
+      "img": "http://placeimg.com/640/480/fashion",
+      "desc": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "id": "5",
+      "categoryPostId": 2
+    },
+    {
+      "createdAt": "2022-01-11T00:27:12.664Z",
+      "title": "Lee Abbott",
+      "img": "http://placeimg.com/640/480/people",
+      "desc": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "id": "6"
+    },
+    {
+      "createdAt": "2022-01-10T14:41:53.412Z",
+      "title": "Muriel Okuneva",
+      "img": "http://placeimg.com/640/480/business",
+      "desc": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "id": "7"
+    },
+    {
+      "createdAt": "2022-01-10T16:35:33.134Z",
+      "title": "Tara Gutmann",
+      "img": "http://placeimg.com/640/480/business",
+      "desc": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "id": "8"
+    },
+    {
+      "createdAt": "2022-01-10T21:17:56.264Z",
+      "title": "Rudy Trantow",
+      "img": "http://placeimg.com/640/480/city",
+      "desc": "The Football Is Good For Training And Recreational Purposes",
+      "id": "9"
+    },
+    {
+      "title": "gameeea",
+      "img": "http://res.cloudinary.com/ecommercer2021/image/upload/v1645194843/wuf2ynqcm7e9cekdzskq.jpg",
+      "desc": "ababababababbababab",
+      "id": "fMoald_"
+    },
+    {
+      "title": "gameeea",
+      "img": "http://res.cloudinary.com/ecommercer2021/image/upload/v1645194845/zluaaojs20t5pkwdondk.jpg",
+      "desc": "ababababababbababab",
+      "id": "0M2-_Pl"
+    },
+    {
+      "title": "gameeea",
+      "img": "http://res.cloudinary.com/ecommercer2021/image/upload/v1645194848/fgscuuz0d1sin6jx6lx7.jpg",
+      "desc": "ababababababbababab",
+      "id": "oyGJ3A3"
+    }
+  ],
+  "categoryPosts": [
+    {
+      "id": 1,
+      "name": "Danh muc bai viet 1"
+    },
+    {
+      "id": 2,
+      "name": "Danh muc bai viet 2"
+    }
+  ],
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "name": "Thành viên 1",
+      "password": "$2a$10$a0/z9dDn1EU92K3Q2vYSFu5cICbN6khbqz3wvPfXjLHof4J41N1.K",
+      "id": 1
+    },
+    {
+      "email": "thuy1002dangthanh@gmail.com",
+      "name": "THÙY",
+      "password": "$2a$10$x15SoAE89cug7ObbCyEM0OaqQ5kTBmJB1f/KvXULtN0ZwonC94aqS",
+      "id": 2
+    },
+    {
+      "email": "member2@gmail.com",
+      "name": "Thành viên 3",
+      "password": "$2a$10$590XBx.sOSfP6gFEnFtTTe4ebGF781tGsxZqrPJ3i2196QrcJyq/y",
+      "id": 3
+    },
+    {
+      "email": "member3@gmail.com",
+      "name": "Thành viên 4",
+      "password": "$2a$10$yJfC1WimCkwUWUwwzDyzTO5q7czJpU4lvXZaq8XBtnyA1lKgoqx.K",
+      "id": 4
+    },
+    {
+      "email": "dafaf@gmail.com",
+      "name": "Thành viên 5",
+      "password": "$2a$10$aMRJ9w.x8X4bQX6KPLLeHOJK68V9qxG5djNgLEuFlNu2bAztcCiVS",
+      "id": 5
+    },
+    {
+      "email": "member100@gmail.com",
+      "name": "Thành viên 6",
+      "password": "$2a$10$Q66peqKcmeyjPycrnDjeQeNROg4/yu1TJQN0o3Qw9OTc4YWtdLnRa",
+      "id": 6
+    },
+    {
+      "email": "thuy100000@gmail.com",
+      "password": "$2a$10$DEqWlYK2EhrgwpHk55eSZ.niOFrfi60xMyCwYghaZhoWrmxd9flIi",
+      "name": "Thùy",
+      "id": 7
+    }
+  ],
+  "products": [
+    {
+      "name": "Dưa Chuột",
+      "img": "image/produc1.jpg",
+      "price": "300.000",
+      "desc": "Sản phẩm từ thiên nhiên",
+      "id": 1
+    },
+    {
+      "name": "Dưa Hấu",
+      "img": "image/produc2.jpg",
+      "price": "200.000",
+      "desc": "Dưa thuộc thể loại king của các loại dưa",
+      "id": 2
+    },
+    {
+      "name": "Xu Hào",
+      "img": "image/produc3.jpg",
+      "price": "443.000",
+      "desc": "Ngọt từ thân, ngon từ rễ",
+      "id": 3
+    },
+    {
+      "name": "Bắp Ơ me ri cờ",
+      "img": "image/produc4.jpg",
+      "price": "421.000",
+      "desc": "Bắp có nguồn gốc từ VIỆT NAM, hàng chất lượng cao",
+      "id": 4
+    },
+    {
+      "name": "Súp Nơ",
+      "img": "image/produc6.jpg",
+      "price": "222.000",
+      "desc": "súp xịn mua đi",
+      "id": 5
+    },
+    {
+      "name": "Rau Lang",
+      "img": "image/produc7.jpg",
+      "price": "44.000",
+      "desc": "",
+      "id": 6
+    },
+    {
+      "name": "Xoài Bỉ",
+      "img": "image/produc8.jpg",
+      "price": "666.000",
+      "desc": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "id": 7
+    },
+    {
+      "name": "Dâu Tây",
+      "img": "image/produc11.jpg",
+      "price": "400.000",
+      "desc": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "id": 8
+    },
+    {
+      "name": "XÀ Nách",
+      "img": "image/produc15.jpg",
+      "price": "300.000",
+      "desc": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "id": 9
+    },
+    {
+      "name": "thùy",
+      "price": 33333,
+      "img": "http://res.cloudinary.com/ecommercer2021/image/upload/v1645510516/iywoiasybex4xlonyttt.jpg",
+      "desc": "ẻerer",
+      "id": 10
+    }
+  ]
+}
