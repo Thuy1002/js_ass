@@ -6,7 +6,7 @@ const ProductsPage = {
     async render() {
         const { data } = await getAll();
         return /* html */`
-        <div class="max-w-5xl mx-auto"> 
+        <div class="max-w-screen-2xl mx-auto"> 
             <div id="header">
                 ${Header.render()}
             </div>

@@ -38,7 +38,7 @@ const Nav = {
                   <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
                     <li class="" ><a href="/" class="   btn-outline-info   nav-link">Trang Chủ</a></li>
                     <li><a href="/about" class="  btn-outline-info  nav-link">Giới Thiệu</a></li>
-                    <li><a href="/product" class="  btn-outline-info nav-link">Sản Phẩm</a></li>
+                    <li><a href="/products" class="  btn-outline-info nav-link">Sản Phẩm</a></li>
                     <li><a href="/blog" class=" btn-outline-info  nav-link">Bài Viết</a></li>
                     <li><a href="/support" class=" btn-outline-info  nav-link">Hỗ Trợ</a>
                     <li> ${localStorage.getItem('user') ? `<ul class="flex">

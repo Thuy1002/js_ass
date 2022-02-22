@@ -58,9 +58,7 @@ const ProductAdmin = {
                                 </ul>
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#pablo">
-                                            <span class="no-icon">Account</span>
-                                        </a>
+                                      
                                     </li>
                                     <li class="nav-item dropdown">
                                     </li>

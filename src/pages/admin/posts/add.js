@@ -11,9 +11,10 @@ const AddPost = {
        
             <div class="sidebar-wrapper">
                 <div class="logo">
-                    <a href="javascript:;" class="simple-text">
-                      Your Logo
-                    </a>
+                <li> ${localStorage.getItem('user') ? `<ul class="flex">
+                <li class="flex items-center"><span style=" text-transform: uppercase; color: currentColor;font-weight: 600; margin-left: 30px; }" class="block  py-3 px-4 text-black" id="name">datlt</span></li>
+              </ul>      
+              `: ""} </li>
                 </div>
                 <ul class="nav">
                     <li class="nav-item active">
@@ -56,14 +57,11 @@ const AddPost = {
                         </ul>
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="#pablo">
-                                    <span class="no-icon">Account</span>
-                                </a>
                             </li>
                             <li class="nav-item dropdown">
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#pablo">
+                                <a class="nav-link" href="/signin">
                                     <span class="no-icon">Log out</span>
                                 </a>
                             </li>
@@ -97,14 +95,9 @@ const AddPost = {
             </div>
             <footer class="footer">
                         <p class="copyright text-center">
-                            ©
-                            <script>
-                                document.write(new Date().getFullYear())
-                            </script>
-                            <a href="http://www.creative-tim.com">Creative Tim</a>, made with love for a better web
+                          Thùy
+                       
                         </p>
-                    </nav>
-                </div>
             </footer>
         </div>
     </div>

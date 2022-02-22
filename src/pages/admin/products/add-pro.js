@@ -55,9 +55,7 @@ const AddProductAdmin = {
                         </ul>
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="#pablo">
-                                    <span class="no-icon">Account</span>
-                                </a>
+                             
                             </li>
                             <li class="nav-item dropdown">
                             </li>
@@ -114,11 +112,11 @@ const AddProductAdmin = {
         `
     },
     afterRender() {
-        const formAddPost = document.querySelector('#formAddPost');
+        const formAddPro = document.querySelector('#formAddPost');
         const CLOUDINARY_PRESET_KEY = "jkbdphzy";
         const CLOUDINARY_API_URL = "https://api.cloudinary.com/v1_1/ecommercer2021/image/upload";
 
-        formAddPost.addEventListener('submit', async function (e) {
+        formAddPro.addEventListener('submit', async function (e) {
             e.preventDefault();
 
             const file = document.querySelector('#img').files[0];
