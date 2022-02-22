@@ -25,7 +25,7 @@ const AdminPost = {
                                 </a>
                             </li>
                             <li>
-                                <a class="nav-link" href="">
+                                <a class="nav-link" href="/admin/products">
                                     <i class="nc-icon nc-bell-55"></i>
                                     <p>Sản Phẩm</p>
                                 </a>
@@ -91,7 +91,7 @@ const AdminPost = {
                                 <tr>
                                     <td>${index + 1}</td>
                                     <td>${post.title}</td>
-                                    <td>${post.image}</td>
+                                    <td><img class="w-[150px] h-[150px]" src="${post.img}" alt=""></td>
                                     <td>
                                     <a href="/#/admin/news/${post.id}/edit">Edit </a>
                                     <button data-id="${post.id}" class="btn">Remove</button>

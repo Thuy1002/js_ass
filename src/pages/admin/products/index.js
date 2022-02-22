@@ -8,7 +8,7 @@ const ProductAdmin = {
 
         return /* html */`
             <div class="wrapper">
-                <div class="sidebar" data-image="http://localhost:3000/assets/img/sidebar-5.jpg">
+                <div class="sidebar" data-image="./assets/img/sidebar-5.jpg">
                
                     <div class="sidebar-wrapper">
                         <div class="logo">
@@ -19,13 +19,13 @@ const ProductAdmin = {
                         </div>
                         <ul class="nav">
                             <li class="nav-item active">
-                                <a class="nav-link" href="dashboard.html">
+                                <a class="nav-link" href="/admin/news">
                                     <i class="nc-icon nc-icon nc-paper-2"></i>
                                     <p>Bài Viết</p>
                                 </a>
                             </li>
                             <li>
-                                <a class="nav-link" href="./user.html">
+                                <a class="nav-link" href="/admin/products">
                                     <i class="nc-icon nc-bell-55"></i>
                                     <p>Sản Phẩm</p>
                                 </a>
@@ -82,16 +82,17 @@ const ProductAdmin = {
                                 <thead>
                                     <th>STT</th>
                                     <th>Tên Sản Phẩm</th>
-                                    <th>Mô Tả</th>
+                                    <th>Ảnh</th>
+                                    <th>Hành Độnh</th>
                                 </thead>
                                 <tbody>
                                 ${data.map((product, index) => `
                                 <tr>
                                     <td>${index + 1}</td>
-                                    <td>${post.title}</td>
-                                    <td>
-                                        <button data-id="${post.id}" class="btn">Remove</button>
-                                    </td>
+                                    <td>${product.name}</td>
+                                    <td><img class="w-[150px] h-[150px]" src="${product.img}" alt=""></td>
+                                   <td> <a href="/#/admin/news/${product.id}/edit">Edit </a>
+                                    <button data-id="${product.id}" class="btn">Remove</button>   </td>
                                 </tr>
                             `).join("")}    
                                 </tbody>
@@ -140,7 +141,7 @@ const ProductAdmin = {
                 const confirm = window.confirm("Bạn có chắc chắn không??");
                 if (confirm) {
                     remove(id).then(() => {
-                        reRender(AdminPost, '#content');
+                        reRender(ProductAdmin, '#content');
                     })
                 }
             })
