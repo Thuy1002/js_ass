@@ -152,7 +152,7 @@
   "products": [
     {
       "name": "Dưa Chuột",
-      "img": "image/produc1.jpg",
+      "img": "https://hinh365.com/wp-content/uploads/2020/06/497e1e40ac9f113e40b53f0d46a76baf.jpg",
       "price": "300.000",
       "desc": "Sản phẩm từ thiên nhiên",
       "id": 1
@@ -212,13 +212,6 @@
       "price": "300.000",
       "desc": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
       "id": 9
-    },
-    {
-      "name": "thùy",
-      "price": 33333,
-      "img": "http://res.cloudinary.com/ecommercer2021/image/upload/v1645510516/iywoiasybex4xlonyttt.jpg",
-      "desc": "ẻerer",
-      "id": 10
     }
   ]
 }
