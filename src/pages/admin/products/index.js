@@ -82,6 +82,7 @@ const ProductAdmin = {
                                     <th>Tên Sản Phẩm</th>
                                     <th>Ảnh</th>
                                     <th>Hành Độnh</th>
+                                    <th>  <a  href="http://localhost:3000/admin/products/add"> Thêm Bài Viết</a> </th>
                                 </thead>
                                 <tbody>
                                 ${data.map((product, index) => `
